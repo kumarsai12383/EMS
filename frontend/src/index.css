@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Dancing+Script&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-bricolage: "Bricolage Grotesque", sans-serif;
+  --font-dancing: "Dancing Script", cursive;
+}
+html {
+  scroll-behavior: smooth;
+}
+html,body{
+  overflow-x: hidden;
+  margin: 0;
+  
+}
